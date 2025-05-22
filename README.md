@@ -34,6 +34,15 @@ staging-bucket
 public-reports
 ```
 
+### 🌎 Setting Region
+
+Spill3r runs fastest if you specify a region using the `--region-only` flag. This ensures accurate scanning against AWS S3 endpoints, which are region-specific. Otherwise Spill3r will try all regions.
+
+#### 🔹 Example
+
+```bash
+poetry run spill3r --bucket example-bucket --region-only us-east-2
+```
 ### 🔹 Scan a single bucket
 ```bash
 poetry run spill3r --bucket my-bucket-name
