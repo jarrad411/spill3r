@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "spill3r"
+version = "0.1.0"
+description = "S3 Bucket Misconfiguration Scanner"
+authors = ["Jarrad Pemberton <jarradpemberton@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "spill3r"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+rich = "^14.0.0"
+
+[tool.poetry.scripts]
+spill3r = "spill3r.spill3r:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

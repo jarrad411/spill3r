@@ -1,0 +1,3 @@
+test-bucket
+my-public-backups
+company-logs

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PoetryConfigService">
+    <option name="poetryVirtualenvPaths">
+      <set>
+        <option value="$USER_HOME$/Library/Caches/pypoetry/virtualenvs/spill3r-P1To6U9a-py3.12/bin/python" />
+      </set>
+    </option>
+  </component>
+</project>
