@@ -1,6 +1,6 @@
 # Spill3r
 
-**Spill3r** is a fast, pluggable Python tool for scanning S3 buckets for public misconfigurations. It is intended for **educational, auditing, and internal assessment** purposes only.
+**Spill3r** is a fast, Python tool for scanning S3 buckets for public misconfigurations. It is intended for **educational, auditing, and internal assessment** purposes only.
 
 > 🛑 **Disclaimer**: This tool is provided for lawful security testing, red teaming, and educational purposes. The authors of this tool are not responsible for any misuse. Ensure you have **explicit permission** before scanning any infrastructure or cloud assets you do not own.
 
